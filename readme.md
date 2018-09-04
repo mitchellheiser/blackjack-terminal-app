@@ -8,7 +8,10 @@
 * If they want to hit, deal another card
 * If they want to stay, ask them again!
 * If their card total exceeds 21, the game ends.
-![diagram](https://i.imgur.com/1BXzjfy.png)
+
+
+![diagram](<img src="https://i.imgur.com/1BXzjfy.png" width="500px">)
+
 
 
 ## INSTALL
