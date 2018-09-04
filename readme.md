@@ -1,11 +1,31 @@
-### BLACKJACK TERMINAL APP
+# BLACKJACK TERMINAL APP
 
-### PLANNING STAGE
-
-### INSTRUCTIONS
+## PLANNING PHASE
+### User Flow
 * Welcome the user
-* Deal them their first two cards, i.e. their initial_round
+* Deal them their first two cards
 * Ask them if they want to hit or stay
 * If they want to hit, deal another card
 * If they want to stay, ask them again!
 * If their card total exceeds 21, the game ends.
+![diagram](https://i.imgur.com/1BXzjfy.png)
+
+
+## INSTALL
+Install Required Gem Files
+
+``` ruby
+gem install colorize
+```
+Run the application from terminal
+```ruby
+ruby blackjack.rb
+```
+
+## INSTRUCTIONS
+* instructions go here
+
+## Resources
+* Project Management Tools (Slack, Trello)
+* list of resources here
+Created by Mitchell & Glenn 2018
