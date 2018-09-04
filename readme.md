@@ -10,7 +10,7 @@
 * If their card total exceeds 21, the game ends.
 
 
-![diagram](<img src="https://i.imgur.com/1BXzjfy.png" width="500px">)
+![diagram](https://i.imgur.com/1BXzjfy.png")
 
 
 
