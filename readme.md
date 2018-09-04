@@ -31,4 +31,6 @@ ruby blackjack.rb
 ## Resources
 * Project Management Tools (Slack, Trello)
 * list of resources here
-Created by Mitchell & Glenn 2018
+
+
+> Created by Mitchell & Glenn 2018
