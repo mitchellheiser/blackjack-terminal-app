@@ -27,11 +27,11 @@
 ### INSTALL
 Install Required Gem Files(Colorize, RubyCards)
 
-``` ruby
+```console
 gem install colorize rubycards
 ```
 Run the application from terminal
-```ruby
+```console
 ruby blackjack.rb
 ```
 
