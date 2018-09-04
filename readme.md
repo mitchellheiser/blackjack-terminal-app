@@ -34,7 +34,7 @@ ruby blackjack.rb
 ## Resources
 * Project Management Tools (Slack, Trello)
 * [Colorize](https://github.com/fazibear/colorize)
-* [Deck-of-cards](link here)
+* [RubyCards](https://www.rubydoc.info/github/jdan/rubycards/master/frames)
 * list of resources here
 
 
