@@ -26,20 +26,38 @@
 ## INSTRUCTIONS
 ### INSTALL
 Install Required Gem Files(Colorize, RubyCards)
+> Must have ruby version 2.5.1 installed
 
 ```bash
 gem install colorize rubycards
 ```
+### RUN
 Run the application from terminal
 ```bash
 ruby blackjack.rb
 ```
 
-## RULES OF BLACKJACK
-* instructions go here
+## RULES
+1. Application is one player only, your player against the dealer
+2. Aces will be counted as either 1 or 11 **(randomly)**
+3. Face cards will be counted as 10 ie. King, Queen, Jack
+4. The value of the hand is the sum of the point values of the individual cards
+5. After the player has placed initial bet, the dealer will shuffle the deck and give 2 cards to the player and 2 cards to himself.
+6. Player has 2 options:
+* "Hit" - Player draws another card (and more if he wishes). If this card causes the player's total points to exceed 21 then he loses.
+* "Stay" - Player is happy with his cards, and move to dealer's turn.
+7. If the dealer goes over 21 points, then player will win
+8. If the dealer doesn't bust, then the higher point total between the player and dealer
 
 ## IMPROVEMENTS
 * With more time we would like to add more players
+* We would like to add more options for the player ie. double bet or surrender
+* Refactor code and run more testing
+
+## CHALLENGES
+* We had some issues implementing RubyCards gem into our application, in particular giving each card a value, and summing these cards together to give a total hand value.
+* 
+
 
 ## Resources
 * Project Management Tools (Slack, Trello)
