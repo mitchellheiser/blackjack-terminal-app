@@ -28,11 +28,11 @@
 
 ## INSTRUCTIONS
 ### INSTALL
-Install Required Gem Files(Colorize, RubyCards)
+Install Required Gem Files
 > Must have ruby version 2.5.1 or greater installed
 
 ```bash
-gem install colorize rubycards
+gem install rubycards
 ```
 ### RUN
 Run the application from terminal
@@ -67,7 +67,6 @@ ruby blackjack.rb
 
 ## RESOURCES
 * Project Management Tools (Slack, Trello)
-* [Colorize](https://github.com/fazibear/colorize)
 * [RubyCards](https://www.rubydoc.info/github/jdan/rubycards/master/frames)
 
 
