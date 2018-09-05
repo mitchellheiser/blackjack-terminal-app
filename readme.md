@@ -2,6 +2,9 @@
 
 ## PLANNING PHASE
 **Timeline:** 2 days
+
+**Language:** Ruby
+
 ### User Flow
 * Welcome the user
 * Output the user's current balance
@@ -50,16 +53,19 @@ ruby blackjack.rb
 8. If the dealer doesn't bust, then the higher point total between the player and dealer
 
 ## IMPROVEMENTS
-* With more time we would like to add more players
-* We would like to add more options for the player ie. double bet or surrender
+* With more time we would like to allow more players
+* We would like to add more options for the player ie. double bet
+* Store the player's balance, allow user to login and play
 * Refactor code and run more testing
 
 ## CHALLENGES
-* We had some issues implementing RubyCards gem into our application, in particular giving each card a value, and summing these cards together to give a total hand value.
-* 
+* We had some issues implementing RubyCards gem into our application, in particular giving each card a value, and then summing these cards together to give a total value.
 
+## POSITIVES
+* We were able to implement gems into our application
+* We met all project requirements within timeline
 
-## Resources
+## RESOURCES
 * Project Management Tools (Slack, Trello)
 * [Colorize](https://github.com/fazibear/colorize)
 * [RubyCards](https://www.rubydoc.info/github/jdan/rubycards/master/frames)
