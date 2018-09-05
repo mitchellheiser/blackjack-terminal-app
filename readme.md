@@ -29,7 +29,7 @@
 ## INSTRUCTIONS
 ### INSTALL
 Install Required Gem Files(Colorize, RubyCards)
-> Must have ruby version 2.5.1 installed
+> Must have ruby version 2.5.1 or greater installed
 
 ```bash
 gem install colorize rubycards
