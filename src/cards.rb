@@ -24,16 +24,16 @@ end
     3.times do 
         t= Time.now
     deck.shuffle!
-    puts "dealer shuffles the cards..."
-    sleep(t + 0.2 - Time.now)
+    puts "Dealer shuffles the cards..."
+    sleep(t + 0.5 - Time.now)
     end
  end 
 
  def initial_deal(deck,hand)# this is the function that deals the play their first two cards it mentions dealing cards to the banker but that isnt done until later line of code
-    puts "Dealer is dealing cards..."
+    puts "Dealer has dealt your cards!"
     hand.draw(deck, 2)
     puts hand
-    puts "dealers cards are face down... dealing is now complete"
+    puts "Dealers cards are face down... dealing is now complete"
     end
      
     
@@ -41,7 +41,7 @@ end
 def bust(deck,hand, card_array, balance, bet,dealerhand,dealercards)# this is the bust function it called when the players cards exceed the value of 21
    card_value(hand, deck, card_array)
     if card_array.sum > 21
-        puts "you have gone bust"
+        puts "You have gone bust!!"
          exit
             end
     end
@@ -50,19 +50,19 @@ def bust(deck,hand, card_array, balance, bet,dealerhand,dealercards)# this is th
     def play_options(deck,hand, card_array,balance)#this is the method that allows players to chose whether they want to hit or stay after looking at the intial cards dealt
 
        until card_array.sum >21 # the hit and stay function are in a loop so that the player may continualy request cards until the bust or break the loop by choosing stay 
-        puts " would you like to Hit or stay"
+        puts "Would you like to Hit or stay"
        input = gets.chomp.downcase
        if input == "hit" 
-            puts" dealer deals 1 card"
+            puts "Dealer deals another card"
             hand.draw(deck, 1)
             card_value(hand, deck, card_array)
             puts hand
             
-            puts " the total value of your hand is #{card_array.sum}"
+            puts "The total value of your hand is #{card_array.sum}"
             else input == "stay"
                 card_value(hand, deck, card_array)
             puts hand
-            puts "you have chosen to stay it is now the dealers turn"
+            puts "You have chosen to stay, it is now the dealers turn"
             break
         end
        end
@@ -96,19 +96,19 @@ def bust(deck,hand, card_array, balance, bet,dealerhand,dealercards)# this is th
         dealer_card_value(dealerhand, deck, dealercards)
         dealerhand.draw(deck, 2)
         puts dealerhand 
-        puts "here is the dealer hand"
+        puts "Here is the dealer's hand"
     end
 
     
 
     def dealer_play_options(dealerhand, deck, dealercards, balance)#this function is how the dealer decides if it will hit or stay
         if dealercards.sum >16 
-            puts "dealer has chosen to stay"
+            puts "Dealer has chosen to stay"
         elsif dealercards.sum > 21 
-        puts "dealer has gone bust"
+        puts "Dealer has gone bust"
         elsif dealercards.sum <16
             
-            puts " dealer has chosen to hit"
+            puts "Dealer has chosen to hit"
             dealerhand.draw(deck, 1)
             puts dealerhand
             dealer_card_value(dealerhand, deck, dealercards)
