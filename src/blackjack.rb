@@ -15,7 +15,12 @@ balance = []
 card_array = []
 bet= ''
 
-def start_app(balance, bet, deck, hand, card_array, dealerhand, dealercards)   #this is the method that layout how the app runs
+def start_app(balance, bet, deck, hand, card_array, dealerhand, dealercards)  #this is the method that layout how the app runs
+  card_array.clear
+  dealercards.clear
+  hand = Hand.new
+  dealerhand = Hand.new
+  deck = Deck.new
   welcome(balance)
   place_bet(balance, bet)
   shuffle(deck, hand)

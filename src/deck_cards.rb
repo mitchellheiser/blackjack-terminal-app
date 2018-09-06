@@ -1,3 +1,5 @@
+
+#this deck of cards was made when thought we might not be able to use the ruby gem  RubyCards so we created this as backup however did not use it 
 class Card
   attr_accessor :rank, :suit
   def initialize(rank, suit)
